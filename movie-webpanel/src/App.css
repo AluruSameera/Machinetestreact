@@ -1,0 +1,100 @@
+
+/* .movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+} */
+/* src/App.css */
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.movie-list div {
+  text-align: center; /* Center the text */
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  margin: 5px 0; /* Adjust margins for the title */
+}
+
+p {
+  margin: 0; /* Remove default margin for the paragraph */
+  color: #888; /* Optional: Change color to indicate it's a rating */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 5px;
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #777;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+/* src/App.css */
+/* src/App.css */
+.cast-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Adjust gap between cast items */
+}
+
+.cast-list div {
+  text-align: center; /* Center the text */
+}
+
+.cast-list img {
+  width: 100px; /* Set a fixed width for cast images */
+  height: auto; /* Maintain aspect ratio */
+}
+
+h3 {
+  margin-top: 20px; /* Add space before the cast heading */
+}
